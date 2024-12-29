@@ -1,0 +1,30 @@
+{
+    "name": "cancaseditor-svg",
+    "version": "1.0",
+    "description": "balafon + vite app for igk_default",
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "build:deploy": "vite build && balafon --vite:build --outDir:/Volumes/Data/Dev/PHP/balafon_site_dev/src/application/Projects/igk_default/Data/assets/cancaseditor-svg"
+    },
+    "keywords": [
+        "balafon",
+        "vite",
+        "app"
+    ],
+    "author": {
+        "email": "bondje.doue@igkdev.com",
+        "name": "C.A.D. BONDJE DOUE"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "vue": "^3"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "*",
+        "jszip": "^3.10.1",
+        "vite": "*",
+        "vite-plugin-balafon": "*"
+    },
+    "type": "module"
+}
