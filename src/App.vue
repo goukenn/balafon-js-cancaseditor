@@ -1,5 +1,5 @@
 <template>
-    <div :class="controller_name">
+    <div :class="controller_name"> 
         <CancasEditor></CancasEditor>
     </div>
 </template>

@@ -24,10 +24,27 @@ export default defineConfig({
 
     },
     componentUri: conf.VITE_ENTRY_URI
-  })
+  }),
+  (function(option){
+      return {
+        name:"vite-plugin-inline-lang",
+        target:'build',
+        enforce:'post',
+        configResolved(conf){
+          let chunkSrc = conf.build.rollupOptions.output.chunkFileNames;
+          conf.build.rollupOptions.output.chunkFileNames = function(r,e){
+            if (/src\/lib\/cancalib\/assets\/Lang/.test(r.facadeModuleId)){
+              return 'js/Lang/[name].js'
+            }
+            return typeof(chunkSrc) == 'function'? chunkSrc.apply(this, [r,e]) : chunkSrc 
+          }
+        }
+      }
+  })()
   ]
   ,
   build: {
+    target:'esnext',
     manifest: true,
     emptyOutDir: true,
     rollupOptions: {

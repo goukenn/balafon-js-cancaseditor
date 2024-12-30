@@ -18,7 +18,8 @@
     },
     "license": "MIT",
     "dependencies": {
-        "vue": "^3"
+        "vue": "^3",
+        "vue-i18n": "^11.0.1"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "*",
