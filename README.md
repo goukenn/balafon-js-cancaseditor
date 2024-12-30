@@ -1,8 +1,8 @@
- # cancaseditor-svg
+ # Cancas Editor
 
-Vite application for igk_default
-- 1.0
-- C.A.D. BONDJE DOUE
+- Online SVG Editor
+- @version: 1.0
+- @author: C.A.D. BONDJE DOUE
 
 
 
