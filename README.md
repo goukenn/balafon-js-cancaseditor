@@ -5,6 +5,10 @@
 - @author: C.A.D. BONDJE DOUE
 
 
+ ## REQUIREMENT
+
+ - balafon (php-framework)
+ - vite-plugin-balafon
 
  ## FEATURES
 
