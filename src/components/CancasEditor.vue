@@ -28,8 +28,7 @@ if (undefined == igk.env.flags.cancasapp){
         } 
         $igk('.igk-cancas-editor-app').each_all(function(){ 
             this.init(); 
-        }); 
-        console.log("basicfff");
+        });  
     });
 }  
 </script>

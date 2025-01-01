@@ -7,8 +7,9 @@
 
  ## REQUIREMENT
 
- - balafon (php-framework)
- - vite-plugin-balafon
+- vite (Vue3)
+- balafon (php-framework)
+- vite-plugin-balafon
 
  ## FEATURES
 
